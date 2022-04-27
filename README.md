@@ -13,6 +13,7 @@ public final class ApiTest extends JavaPlugin {
         JSONConfig<Model> JSON_CONFIG = JCApi.getNew(this, Model.class, "config.json").get()
                 .createConfig()
                 .reload();
+        this.getLogger().info(JSON_CONFIG.getJson().DATA);
     }
 }
 class Model {
