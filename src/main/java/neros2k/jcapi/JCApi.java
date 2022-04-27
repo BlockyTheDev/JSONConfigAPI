@@ -3,7 +3,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 import java.util.Optional;
 public final class JCApi extends JavaPlugin {
-    // JSONConfig<Model> JSON_CONFIG = JCApi.getNew(Model.class, "config.json").get().createConfig().reload();
     private static JavaPlugin PLUGIN_INSTANCE;
     public JCApi() {
         JCApi.PLUGIN_INSTANCE = this;
