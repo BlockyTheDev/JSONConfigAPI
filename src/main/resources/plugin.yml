@@ -1,6 +1,6 @@
 name: JSONConfigAPI
 version: '${project.version}'
-main: neros2k.jsonconfigapi.JSONConfigAPI
+main: neros2k.jcapi.JSONConfigAPI
 load: STARTUP
 api-version: 1.17
 authors: [ neros2k ]
