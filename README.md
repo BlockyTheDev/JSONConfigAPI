@@ -45,3 +45,7 @@ class Model {
     </snapshots>
 </repository>
 ```
+```yml
+softdepend:
+  - JSONConfigAPI
+```
