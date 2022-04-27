@@ -3,11 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>neros2k.jcapi</groupId>
-    <artifactId>JSONConfigAPI</artifactId>
-    <version>1.0</version>
+    <groupId>n2k.apitest</groupId>
+    <artifactId>ApiTest</artifactId>
+    <version>1</version>
     <packaging>jar</packaging>
-    <name>JSONConfigAPI</name>
+    <name>ApiTest</name>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -47,13 +47,6 @@
             </resource>
         </resources>
     </build>
-    <distributionManagement>
-        <repository>
-            <id>internal.repo</id>
-            <name>Temporary Staging Repository</name>
-            <url>file://${project.build.directory}/mvn-repo</url>
-        </repository>
-    </distributionManagement>
     <repositories>
         <repository>
             <id>spigotmc-repo</id>
@@ -70,12 +63,6 @@
             <artifactId>spigot-api</artifactId>
             <version>1.17-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>
