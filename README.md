@@ -3,23 +3,15 @@
 
 # Пример использования
 ```java
-package n2k.apitest;
-import neros2k.jcapi.JCApi;
-import neros2k.jcapi.JSONConfig;
-import org.bukkit.plugin.java.JavaPlugin;
 public final class ApiTest extends JavaPlugin {
-    @Override
-    public void onEnable() {
+    @Override void onEnable() {
         JSONConfig<Model> JSON_CONFIG = JCApi.getNew(this, Model.class, "config.json").get()
                 .createConfig()
                 .reload();
         this.getLogger().info(JSON_CONFIG.getJson().DATA);
     }
 }
-class Model {
-    String DATA;
-}
-
+class Model { String DATA; }
 ```
 ```json
 {
@@ -27,7 +19,12 @@ class Model {
 }
 ```
 
-# Установка
+# Установка на сервере
+Для того, чтобы установить API, потребуеться лишь положить **.jar** файл в директорию плагинов вашего сервера (**/plugins**). API автоматически установится при запуске/перезагрузке сервера.
+> Доступные версии: 1.17; 1.17.1; 1.18; 1.18.1; 1.18.2. Доступные ядра: Spigot, Paper, и прочие форки упомянутых.
+
+# Установка в проекте
+Учтите, что для работы API в проекте требуется установленный экземпляр на сервере.
 ```xml
 <dependency>
     <groupId>neros2k.jcapi</groupId>
