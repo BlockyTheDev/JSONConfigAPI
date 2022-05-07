@@ -43,6 +43,6 @@ class Model { String DATA; }
 </repository>
 ```
 ```yml
-softdepend:
+depend:
   - JSONConfigAPI
 ```
