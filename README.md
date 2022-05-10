@@ -8,7 +8,7 @@
 [![CurseForge](https://img.shields.io/badge/JSONConfigAPI-CurseForge-green)]()
 
 # Описание
-**JSONConfigAPI** - простейший способ создать JSON-конфигурацию в совершенно любом SpigotAPI плагине.
+**JSONConfigAPI** - простейший способ создать JSON-конфигурацию в совершенно любом Bukkit плагине.
 
 # Пример использования
 ```java
