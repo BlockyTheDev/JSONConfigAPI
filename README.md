@@ -1,5 +1,5 @@
 ![Java](https://img.shields.io/badge/Java%20version-16-orange)
-![Open issues](https://img.shields.io/github/issues-raw/neros2k/nTags)
+![Open issues](https://img.shields.io/github/issues-raw/neros2k/JSONConfigAPI)
 ---
 [![Dropbox](https://img.shields.io/badge/Dropbox-v1.0-blue)]()
 [![SpigotMC](https://img.shields.io/badge/SpigotMC-v1.0-yellow)]()
