@@ -36,9 +36,9 @@ class Model { String DATA; }
 Учтите, что для работы API в проекте требуется установленный экземпляр на сервере.
 ```xml
 <dependency>
-    <groupId>neros2k.jcapi</groupId>
+    <groupId>n2k_.jcapi</groupId>
     <artifactId>JSONConfigAPI</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 ```xml
