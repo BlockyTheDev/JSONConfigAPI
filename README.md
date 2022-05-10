@@ -1,11 +1,11 @@
 ![Java](https://img.shields.io/badge/Java%20version-16-orange)
 ![Open issues](https://img.shields.io/github/issues-raw/neros2k/nTags)
 ---
-[![Dropbox]()
-[![SpigotMC]()
-[![SourceForge]()
-[![Trello](https://trello.com/c/jMOOAFJh/15-jsonconfigapi)
-[![CurseForge]()
+[![Dropbox](https://img.shields.io/badge/Dropbox-v1.0-blue)]()
+[![SpigotMC](https://img.shields.io/badge/SpigotMC-v1.0-yellow)]()
+[![SourceForge](https://img.shields.io/badge/SourceForge-v1.0-orange)]()
+[![Trello](https://img.shields.io/badge/Trello-v1.0-blue)](https://trello.com/c/jMOOAFJh/15-jsonconfigapi)
+[![CurseForge](https://img.shields.io/badge/CurseForge-v1.0-green)]()
 
 # Описание
 **JSONConfigAPI** - простейший способ создать JSON-конфигурацию в совершенно любом SpigotAPI плагине.
