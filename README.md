@@ -2,7 +2,7 @@
 ![Open issues](https://img.shields.io/github/issues-raw/neros2k/JSONConfigAPI)
 ---
 [![Dropbox](https://img.shields.io/badge/JSONConfigAPI-Dropbox-blue)](https://www.dropbox.com/sh/3uyt17utxbgdkwy/AACg-CP17dqd0U64yFHkiU1Za?dl=0)
-[![SpigotMC](https://img.shields.io/badge/JSONConfigAPI-SpigotMC-yellow)]()
+[![SpigotMC](https://img.shields.io/badge/JSONConfigAPI-SpigotMC-yellow)](https://www.spigotmc.org/resources/jsonconfigapi.101927/)
 [![SourceForge](https://img.shields.io/badge/JSONConfigAPI-SourceForge-orange)]()
 [![Trello](https://img.shields.io/badge/JSONConfigAPI-Trello-blue)](https://trello.com/c/jMOOAFJh/15-jsonconfigapi)
 [![CurseForge](https://img.shields.io/badge/JSONConfigAPI-CurseForge-green)]()
