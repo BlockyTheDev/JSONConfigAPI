@@ -1,3 +1,12 @@
+![Java](https://img.shields.io/badge/Java%20version-16-orange)
+![Open issues](https://img.shields.io/github/issues-raw/neros2k/nTags)
+---
+[![Dropbox]()
+[![SpigotMC]()
+[![SourceForge]()
+[![Trello](https://trello.com/c/jMOOAFJh/15-jsonconfigapi)
+[![CurseForge]()
+
 # Описание
 **JSONConfigAPI** - простейший способ создать JSON-конфигурацию в совершенно любом SpigotAPI плагине.
 
