@@ -14,7 +14,6 @@
 public final class ApiTest extends JavaPlugin {
     @Override void onEnable() {
         JSONConfig<Model> JSON_CONFIG = JCApi.getNew(this, Model.class, "config.json").get()
-                .createConfig()
                 .reload();
         this.getLogger().info(JSON_CONFIG.getJson().DATA);
     }
